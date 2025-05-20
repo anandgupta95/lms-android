@@ -3,6 +3,8 @@ package com.example.Application.ui.screens.common
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -37,7 +39,7 @@ fun ProfileScreen(
                 // You can use Coil or another image loader here for real URL
                 // For now, just a placeholder
                 Image(
-                    painter = painterResource(id = R.drawable.ic_profile_placeholder),
+                    painter = painterResource(id = R.mipmap.ic_launcher),
                     contentDescription = "Profile Picture",
                     modifier = Modifier
                         .size(120.dp)
